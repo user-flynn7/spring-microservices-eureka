@@ -1,0 +1,50 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Build output
+build/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.nb-gradle/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.apt_generated
+.sts4-cache
+
+# Logs and runtime
+*.log
+*.h2.db
+*.db
+*.pid
+*.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Node-related (if applicable)
+node_modules/
+dist/
+
+# Flyway metadata (if you ever dump it)
+flyway-schema-history*
+
+# Ignore HELP.md or auto-generated docs
+HELP.md
+
+docker/kafka-data/
+docker/sql-data/
